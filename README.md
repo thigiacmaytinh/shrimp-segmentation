@@ -9,12 +9,13 @@ Thông qua repository này, các bạn có thể hiểu được công dụng c�
 
 Trong repository đã commit sẵn dataset gồm ảnh và label, mỗi dòng trong label chứa polygon (đa giác) bao lấy vật thể cần phát hiện. Quy tắc như sau:
 
-`<Class ID> <cx> <cy> x1 y1 x2 y2 x3 y3....`
+`<Class ID> <cx> <cy> <w> <h> x1 y1 x2 y2 x3 y3....`
 
 Giải thích các tham số:
 - Class ID là số, đại diện cho class
 - cx: giá trị center x của bounding box chứa polygon
 - cy: giá trị center y của bounding box chứa polygon
+- w và h: width và height
 - x y....: giá trị x và y của các điểm
 
 Các giá trị này là số thập phân trong khoảng [0:1], tương tự như Object detection.
