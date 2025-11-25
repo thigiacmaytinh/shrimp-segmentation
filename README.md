@@ -23,7 +23,7 @@ Các giá trị này là số thập phân trong khoảng [0:1], tương tự nh
 ## Training
 Do repository đã commit sẵn dataset nên các bạn không cần download dataset, chỉ cần sửa đường dẫn rồi ấn nút training là được.
 
-Kết quả training nằm trong folder: **runs/segment/train/weights**
+Kết quả training nằm trong folder: **Weights**
 
 ## Test 
 
